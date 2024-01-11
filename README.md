@@ -1,7 +1,7 @@
 Questions Answering in Langchain:
 In Questions Answering using Langchain/LLM, there are 4 different ways for question-answering. They are:
 
- load_qa_chain: It is a generic interface for question-answering. It takes the input of all the text in the document.
+ 	load_qa_chain: It is a generic interface for question-answering. It takes the input of all the text in the document.
 	RetrievalQA: Here we retrieve most relevant text chunks and feed it to language model
 	VectorstoreIndexCreator: It is a higher level interface that is wrapped around RetrievalQA functionality.
 	ConversationalRetrievalChain: It is similar to RetrievalQA, but in addition it provides a chat history parameter which can be used for follow up questions.
